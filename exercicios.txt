@@ -1,0 +1,37 @@
+
+
+Criar um repositório no GitHub para o projeto do CP2
+
+Conectar o seu notebook Python do exemplo de classificação
+(aula anterior)ao seu repositório 
+(Arquivo ----> Salvar cópia no GitHub)
+
+Upload do arquivo Data_for_UCI_named.csv para o repositório
+CLASSIFICAÇÃO ----> PREVISÃO DE CLASSES
+REGRESSÃO ----> PREVISÃO DE NÚMEROS
+
+Novo exercício:
+Treinar um modelo de regressão linear para prever os valores 
+da coluna 'stab'.
+sklearn ----> LinearRegression
+Para essa tarefa é necessário que o grupo encontre as features
+que possuam maior correlação linear com a variável alvo 'stab'.
+Dica: crie uma matriz de correlação usando heatmap com
+o matplotlib e/ou seaborn
+
+y ---> target ---> dados da coluna 'stab'
+X ---> features ------> dataframe com as features com maior 
+correlação linear com a coluna 'stab'
+
+Métricas: 
+Coeficiente de determinação R2
+MAE
+MSE
+
+Gerar os gráficos de correlação entre 'stab' e as variáveis 
+de entrada.
+Gerar o gráfico Real x Previsto
+
+
+
+
